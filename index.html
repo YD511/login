@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" dir="rtl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <h2 class="login-title">تسجيل الدخول</h2>
+        <div class="login-form">
+            <div class="form-field">
+                <h2 class="input-label">اسم المستخدم أو البريد الإلكتروني</h2>
+                <input type="email" name="email" id="email" class="input-field">
+                <i class="fas fa-user input-icon" id="lock-iconName"></i>
+            </div>
+
+            <div class="form-field">
+                <h2 class="input-label">كلمة المرور</h2>
+                <input type="password" name="password" id="password" class="input-field">
+                <i class="fas fa-lock input-icon" id="lock-icon"></i>
+            </div>
+        
+            <div class="reg-container">
+                <p class="reg-text">ليس لديك حساب ؟</p>
+                <a href="Register.html" class="reg-linck" >اضغط هنا لإنشاء حساب</a>
+             </div>
+
+             <p id="error-message" ></p>
+
+            <input onclick="return  vaildateLogin()"  class="login-button" type="button" name="login" value="دخول">
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

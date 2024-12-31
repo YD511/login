@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI,
+    HelveticaNeue-Light, Ubuntu, Droid Sans, sans-serif, font-wso2,
+    "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  width: 28em;
+  height: 34em;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.login-title {
+  color: #00adbb;
+  font-size: 20px;
+  margin-top: 33px;
+  text-align: center;
+}
+
+.login-form {
+  display: block;
+  justify-content: center;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-field {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-label {
+  font-size: 11px;
+  text-align: right;
+  margin-top: 30px;
+}
+
+.input-field {
+  margin: 4px;
+  text-align: right;
+  width: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px 44px 10px 10px;
+  font-size: 16px;
+  outline: none;
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #00adbb;
+  font-size: 18px;
+  pointer-events: none; 
+}
+
+#lock-iconName {
+  bottom: 40px;
+  left: 90%;
+}
+
+#lock-icon {
+  bottom: 40px;
+  left: 90%;
+}
+
+.reg-container {
+  text-align: right;
+}
+
+.reg-container > .reg-linck {
+  color: #00adbb;
+  text-decoration: none;
+}
+
+.login-button {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00adbb;
+  padding: 10px 19px 10px 19px;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  display: block;
+}
+
+.login-button:hover {
+  background-color: #068a93;
+}
+
+#error-message {
+  color: red;
+  display: none;
+  text-align: right;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container {
+    width: 255px;
+    height: 27em;
+  }
+
+  .login-title {
+    font-size: 18px;
+    margin-top: 19px;
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 7px 30px 8px 8px;
+    width: 180px;
+  }
+
+  .login-button {
+    width: 26%;
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    background-color: #00adbb;
+    border-radius: 1px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .input-icon {
+    font-size: 14px;
+  }
+
+  #lock-iconName {
+    top: 37px;
+    left: 90%;
+  }
+
+  #lock-icon {
+    top: 37px;
+    left: 90%;
+  }
+}

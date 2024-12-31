@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI,
+    HelveticaNeue-Light, Ubuntu, Droid Sans, sans-serif, font-wso2,
+    "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+.register-container {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  width: 28em;
+  height: 34em;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.register-title {
+  color: #00adbb;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-form {
+  display: block;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-field {
+  margin-bottom: 3px; 
+  position: relative;
+}
+
+.input-label {
+  font-size: 11px;
+  text-align: right;
+  margin-top: 1px;
+}
+
+.input-field {
+  margin: 4px;
+  text-align: right;
+  width: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px 44px 10px 10px;
+  font-size: 16px;
+  outline: none;
+  position: relative;
+}
+
+.register-button {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00adbb;
+  padding: 10px 19px 10px 19px;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  display: block;
+}
+
+.register-button:hover {
+  background-color: #00aebbb5;
+}
+
+.input-icon {
+  position: absolute;
+  right: 12px;
+  top: 67%;
+  transform: translateY(-50%);
+  color: #00adbb;
+  font-size: 16px;
+}
+
+#input-iconPass {
+  position: absolute;
+  right: 12px; 
+  transform: translateY(-50%);
+  color: #00adbb;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.reg-container {
+  text-align: right;
+}
+
+.reg-container > .reg-linck {
+  text-decoration: 1px;
+  color: inherit;  
+  color: #00adbb;
+}
+
+
+#error-message {
+  text-align: right;
+  color: red;
+  display: none;
+  font-size: 13px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .register-container {
+    width: 259px;
+    height: 30em;
+  }
+
+  .register-form {
+    margin-top: 25px;
+  }
+  .register-title {
+    font-size: 18px;
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 7px 30px 8px 6px;
+    width: 180px;
+   
+  }
+
+  .register-button {
+    width: 50%;
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    background-color: #00adbb;
+    border-radius: 1px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .input-icon {
+    font-size: 14px;
+  }
+
+  #input-iconPass {
+    font-size: 14px;
+  }
+
+  .reg-container {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  .reg-linck {
+    font-size: 12px;
+  }
+}

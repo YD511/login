@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" dir="rtl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="registerStely.css">
+</head>
+
+<body>
+    <div class="register-container">
+        <h2 class="register-title">إنشاء حساب</h2>
+        <div class="register-form">
+            <div class="form-field">
+                <h2 class="input-label">اسم المستخدم</h2>
+                <input type="text" name="username" id="username" class="input-field" required>
+                <i class="fas fa-user input-icon"></i>
+            </div>
+
+            <div class="form-field">
+                <h2 class="input-label">البريد الإلكتروني</h2>
+                <input type="email" name="email" id="email" class="input-field" required>
+                <i class="fas fa-envelope input-icon"></i>
+            </div>
+
+            <div class="form-field">
+                <h2 class="input-label">كلمة المرور</h2>
+                <input type="password" name="password" id="password" class="input-field" required>
+                <i class="fas fa-lock input-icon"></i>
+            </div>
+
+            <div class="form-field">
+                <h2 class="input-label">تأكيد كلمة المرور</h2>
+                <input type="password" name="confirm-password" id="confirm-password" class="input-field" required>
+                <i class="fas fa-lock input-icon" id="input-iconPass"></i>
+            </div>
+            <div class="reg-container">
+                <p class="reg-text"> لديك حساب ؟</p>
+                <a href="index.html" class="reg-linck" >اضغط هنا لتسجيل الدخول </a>
+             </div>
+
+            <p id="error-message" ></p>
+
+          
+          <input class="register-button" type="button" name="register" value="انشاء الحساب" onclick="return validateRigster()">
+          
+        </div>
+    </div>
+
+    <script src="script.js">
+   
+
+    </script>
+</body>
+
+</html>
