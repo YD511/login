@@ -64,7 +64,7 @@ body {
   margin-right: auto;
   background-color: #00adbb;
   padding: 10px 19px 10px 19px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: none;
   color: #ffffff;
   display: block;
@@ -137,7 +137,7 @@ body {
     cursor: pointer;
     color: white;
     background-color: #00adbb;
-    border-radius: 1px;
+    border-radius: 5px;
     text-align: center;
     padding: 10px;
   }
