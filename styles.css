@@ -66,7 +66,7 @@ body {
   transform: translateY(-50%);
   color: #00adbb;
   font-size: 18px;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 #lock-iconName {
@@ -111,6 +111,7 @@ body {
   font-size: 13px;
 }
 
+/* استعلام الوسائط للجوال */
 @media screen and (max-width: 600px) {
   .login-container {
     width: 255px;
@@ -134,7 +135,7 @@ body {
     cursor: pointer;
     color: white;
     background-color: #00adbb;
-    border-radius: 0px;
+    border-radius: 0px !important; /* ضمان إزالة الحواف المنحنية */
     text-align: center;
     padding: 10px;
   }
