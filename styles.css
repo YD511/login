@@ -134,7 +134,7 @@ body {
     cursor: pointer;
     color: white;
     background-color: #00adbb;
-    border-radius: 5px;
+    border-radius: 0px;
     text-align: center;
     padding: 10px;
   }
