@@ -136,6 +136,7 @@ body {
     color: white;
     background-color: #00adbb;
     border-radius: 7px;
+    -webkit-border-radius: 5px;
     text-align: center;
     padding: 10px;
   }
