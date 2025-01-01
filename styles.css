@@ -111,7 +111,7 @@ body {
   font-size: 13px;
 }
 
-/* استعلام الوسائط للجوال */
+
 @media screen and (max-width: 600px) {
   .login-container {
     width: 255px;
@@ -135,7 +135,7 @@ body {
     cursor: pointer;
     color: white;
     background-color: #00adbb;
-    border-radius: 0px !important; /* ضمان إزالة الحواف المنحنية */
+    border-radius: 0px !important; 
     text-align: center;
     padding: 10px;
   }
