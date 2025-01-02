@@ -68,6 +68,8 @@ body {
   border: none;
   color: #ffffff;
   display: block;
+  appearance: none; 
+  -webkit-appearance: none; 
 }
 
 .register-button:hover {
