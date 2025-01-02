@@ -134,8 +134,6 @@ body {
   }
 
   .register-button {
-    width: 50%;
-    height: 36px;
     cursor: pointer;
     color: white;
     background-color: #00adbb;
