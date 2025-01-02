@@ -98,6 +98,8 @@ body {
   border: none;
   color: #ffffff;
   display: block;
+  appearance: none; 
+  -webkit-appearance: none; 
 }
 
 .login-button:hover {
